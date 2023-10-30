@@ -1,31 +1,16 @@
-# Projeto de Censura de Imagens BMP
+# Projeto de Censura de Imagens BMP em Assembly
 
-Este é um programa simples em C que permite censurar áreas específicas de imagens BMP. O programa recebe como entrada o nome de um arquivo de imagem BMP, coordenadas iniciais (x e y), largura e altura do retângulo de censura e um nome para o arquivo de saída.
-
-## Requisitos
-
-- MASM32 instalado
-- Sistema operacional Windows
-
-## Compilação
-
-Aconselho utilizar a propria IDE do MASM32, na aba 'Project':
-
-```bash
-Console Build All
-# Projeto de Censura de Imagens BMP
-
-Este é um programa simples em C que permite censurar áreas específicas de imagens BMP. O programa recebe como entrada o nome de um arquivo de imagem BMP, coordenadas iniciais (x e y), largura e altura do retângulo de censura e um nome para o arquivo de saída.
+Este é um projeto que utiliza a linguagem Assembly para censurar áreas específicas de imagens BMP. O programa recebe como entrada o nome de um arquivo de imagem BMP, coordenadas iniciais (x e y), largura e altura do retângulo de censura e um nome para o arquivo de saída. A implementação do projeto é feita em Assembly.
 
 ## Requisitos
 
-- MASM32 instalado
-- Sistema operacional Windows
+- Montador e linker Assembly (NASM32)
+- Sistema operacional compatível com chamadas de sistema para leitura e escrita de arquivos
 
 ## Compilação
 
-Aconselho utilizar a propria IDE do MASM32, na aba 'Project':
-
+Para compilar o projeto em Assembly, você deve usar o montador adequado e o linker. Os comandos de compilação podem variar dependendo do seu ambiente e sistema operacional. Certifique-se de utilizar as ferramentas apropriadas para compilar seu código Assembly.
+- MASM32 na aba 'Project':
 ```bash
 Console Build All
 ```
